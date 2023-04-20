@@ -1,5 +1,24 @@
 import random
 
+
+while True:
+    talet = random.randint(1, 6)
+    print(f"Talet blev {talet}")
+    while True:
+        svar = input("Vill du kasta en gång till J/N?")
+        if svar == "N":
+            break
+        if svar == "J":
+            break
+        print("Ogiltig input")    
+    if svar == "N":
+        break
+
+
+
+
+
+
 summa = 0
 for i in range(0,10):
     tal = int(input(f"Mata in tal nummer {i+1}"))
@@ -15,12 +34,6 @@ for tal in range(tal1,tal2+1):
     print(tal)
 
 
-while True:
-    talet = random.randint(1, 6)
-    print(f"Talet blev {talet}")
-    svar = input("Vill du kasta en gång till j/n?")
-    if svar == "n":
-        break
     #print("RAST!!!!!!")
 
 for year in range(1972,1980,1):
