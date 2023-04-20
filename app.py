@@ -1,5 +1,20 @@
 import random
 
+summa = 0
+for i in range(0,10):
+    tal = int(input(f"Mata in tal nummer {i+1}"))
+    summa = summa + tal
+
+print(f"Summan av alla talen blev {summa}")
+
+
+
+tal1 = int(input("Ange start"))
+tal2 = int(input("Ange slut"))
+for tal in range(tal1,tal2+1):
+    print(tal)
+
+
 while True:
     talet = random.randint(1, 6)
     print(f"Talet blev {talet}")
